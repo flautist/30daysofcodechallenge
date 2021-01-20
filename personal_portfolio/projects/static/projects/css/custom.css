@@ -8,9 +8,19 @@
 }
 
 h1 {
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
 
-p {
-    padding: 40px;
+.row {
+    padding-left: 40px;
 }
+
+.col-md-4 {
+    margin: 10px;
+    padding: 40px;
+    border-style: outset;
+    border-color: darkolivegreen;
+}
+
