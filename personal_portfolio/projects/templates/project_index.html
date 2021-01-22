@@ -13,7 +13,8 @@
                 <img class="card-img-top" src="{% static project.image %}">
                 <h3 class="card-title">{{ project.title }}</h3>
                 <p class="card-text">{{ project.description }}</p>
-                <a href="{% url 'project_detail' project.pk %}">
+                <a href="{% url 'project_detail' project.pk %}"
+                    class="btn btn-primary">
                     Read More
                 </a>
             </div>

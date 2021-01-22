@@ -39,7 +39,6 @@ h1 {
   flex-wrap: wrap;
   background-color: #05050573;
   position: relative;
-  cursor: pointer;
   overflow: hidden;
   transition: 0.5;
 }
@@ -50,7 +49,7 @@ h1 {
   opacity: 0.1;
   transition: 0.5s;
 }
-.row .card .card-body img{
+.row .card .card-body img {
   border-radius: 4px;
 }
 .row .card .card-body h2 {
@@ -75,12 +74,14 @@ h1 {
   background-color: #fff;
   display: inline-block;
   font-size: 1.1rem;
+  padding: 10px 15px;
   text-decoration: none;
-  
+  z-index: 2;
+  position: absolute;
 }
 .row .card::before {
   content: "";
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 0;
   width: 50%;
