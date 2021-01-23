@@ -8,8 +8,12 @@
 
 
 body {
-  background-color: #111111ea;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  background-color: #111111ea;
 }
 
 
@@ -23,9 +27,10 @@ h1 {
 
 .col-md-4 {
   color: #fff;
+  padding-left: 60px;
 }
 .col-md-8 {
-  padding-left: 50px;
+  padding: 50px;
 }
 .col-md-8 img {
   border-radius: 8px;
@@ -108,7 +113,7 @@ h1 {
   top: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(to right, transparent, #0dd628);
+  background: linear-gradient(to right, transparent, #2f7aeb);
   animation: animate1 2s linear infinite;
 }
 .container .card span:nth-child(2) {
@@ -117,7 +122,7 @@ h1 {
   top: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(to bottom, transparent, #09690e);
+  background: linear-gradient(to bottom, transparent, #153674);
   animation: animate2 2s linear infinite 1s;
 }
 .container .card span:nth-child(3) {
@@ -126,7 +131,7 @@ h1 {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(to left, transparent, #0dd628);
+  background: linear-gradient(to left, transparent, #2f7aeb);
   animation: animate3 2s linear infinite;
 }
 .container .card span:nth-child(4) {
@@ -135,7 +140,7 @@ h1 {
   bottom: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(to top, transparent, #09690e);
+  background: linear-gradient(to top, transparent, #153674);
   animation: animate4 2s linear infinite 1s;
 }
 .container .card:hover .card {
